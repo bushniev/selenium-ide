@@ -24,7 +24,7 @@ public class WiniumTest {
         wait = new WebDriverWait(driver,30);
 
     }
-    
+
     @Test
     public void add() {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.name("1")));
